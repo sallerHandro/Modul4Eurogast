@@ -6,7 +6,10 @@ public class App {
 	public static void main(String[] args)
 	{
 		//zu verarbeitende Artikelliste kommt aus untenstehender Hilfsmethode:
+
 		ArrayList<Artikel> al = artikellisteAusDBDummy();
+		Exporter exporter = new CSVExport(al);
+		exporter.export();
 		
 		//Je nach Kommandozeilenparameter sollen verschiedene Exporte durchgeführt werden.
 		//In Eclipse können diese Paramter gesetzt werden über (noch ist keiner gesetzt):
