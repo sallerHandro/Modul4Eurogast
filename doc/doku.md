@@ -6,3 +6,5 @@
 ## Commit 3
 - ändern des Variablentyps für die Zeitangaben auf LocalDate
 - austesten des Programs in der App Klasse 
+## Commit 4
+- feinschliff
